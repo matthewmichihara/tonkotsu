@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="Theme.Tonkotsu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/yellow</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/dark_yellow</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/purple</item>
+
+        <item name="toolbarStyle">@style/Widget.Tonkotsu.Toolbar</item>
+        <item name="listItemVenueContainerStyle">@style/listItemContainerStyle</item>
+        <item name="listItemVenueOverlayImageViewStyle">@style/listItemVenueOverlayImageViewStyle
+        </item>
+        <item name="listItemVenueIconStyle">@style/listItemVenueIconStyle</item>
+        <item name="listItemVenueNameStyle">@style/listItemVenueNameStyle</item>
+        <item name="listItemVenueRatingStyle">@style/listItemVenueRatingStyle</item>
+    </style>
+
+    <style name="Widget.Tonkotsu.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="listItemContainerStyle">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="listItemVenueOverlayImageViewStyle">
+        <item name="android:src">@drawable/list_item_venue_overlay</item>
+    </style>
+
+    <style name="listItemVenueIconStyle">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+
+    <style name="listItemVenueNameStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+
+    </style>
+
+    <style name="listItemVenueRatingStyle" pagrent="@android:style/TextAppearance.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+</resources>

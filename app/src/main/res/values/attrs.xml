@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="listItemVenueContainerStyle" format="reference"/>
+    <attr name="listItemVenueOverlayImageViewStyle" format="reference"/>
+    <attr name="listItemVenueIconStyle" format="reference"/>
+    <attr name="listItemVenueNameStyle" format="reference"/>
+    <attr name="listItemVenueRatingStyle" format="reference"/>
+</resources>

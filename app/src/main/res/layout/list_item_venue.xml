@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?listPreferredItemHeightLarge">
+
+    <ImageView
+        android:id="@+id/venue_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/venue_overlay"
+        style="?attr/listItemVenueOverlayImageViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        style="?attr/listItemVenueContainerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/venue_icon"
+            style="?attr/listItemVenueIconStyle"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+        <TextView
+            android:id="@+id/venue_name"
+            style="?attr/listItemVenueNameStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/venue_rating"
+            style="?attr/listItemVenueRatingStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>
